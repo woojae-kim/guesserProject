@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Guessing game</title>
+</head>
+<body>
+
+  <p id="numberMain"> 
+    Guess the number!  
+  </p>
+
+  <form id="userGuess">
+
+    <label for="numUser">Input a number:</label><br>
+
+    <input type="text" id="numUser" onkeypress="return isNumberKey(event)">
+
+    <input type="button" id="submitBtn" value="Submit" />
+
+  </form>
+
+  <p id="winLose">
+    
+  </p>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
